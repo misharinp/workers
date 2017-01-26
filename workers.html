@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Workers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="workers.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <form action="myScript" name="my_form" id="my-form">
+            <div id="wrapper">
+                Фамилия: <input type="text" id="lastname" >
+                <br>
+                Имя: <input type="text" id="name" >
+                <br>
+                Личный код: <input type="text" id="kod" >
+                <br>
+                Должности: <select name="specialty" id="specialty">
+                    <option value="1">Сисадмин</option>
+                    <option value="2">Программист</option>
+                    <option value="3">Менеджер</option>
+                </select>
+                <br>
+                Телефон: <input type="text" id="tele" >
+                <br>
+                Номер счета: <input type="text" id="schet" >
+                <br>
+                Город: <input type="text" id="city" >
+                <br>
+                Адрес: <input type="text" id="adress" >
+            </div>
+
+            <div id="wrapper2">
+                <input type="checkbox" id="check1" name="check1" value="true"> Результаты работы (швеи)
+                <br>
+                <input type="checkbox" id="check2" name="check2" value="true"> Заработная плата (бухгалтер)
+                <br>
+                <input type="checkbox" id="check3" name="check3" value="true"> Ордера (технолог)
+                <br>
+                <input type="checkbox" id="check4" name="check4" value="true"> Модели и операции
+                <br>
+                <input type="checkbox" id="check5" name="check5" value="true"> Работники
+            </div>
+
+
+            <input type="submit" value="Добавить">
+            <input type="submit" value="Изменить">
+            <input type="reset" value="Удалить">
+
+
+            Работники: <select name="workers" id="workers">
+                <option value="12">Иван иванов</option>
+                <option value="22">Михаил Голубцов</option>
+                <option value="32">Анастасия Герцова</option>
+            </select>
+
+
+        </form>
+
+    </body>
+</html>
